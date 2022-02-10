@@ -1,0 +1,196 @@
+body,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Work Sans', sans-serif; 
+}
+img{
+    max-width: 100%;
+}
+    /* main css */
+.min-section-bg{
+    background-color: #f7f9ff;
+}
+span{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.logo{
+    width: 50px;
+}
+.header-menu .nav-link{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+/* silder */
+.silder{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.silder::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.silder-caption h4{
+    margin-bottom: 35px;
+}
+.silder-caption h2{
+    margin-bottom: 50px;
+    font-size: 46px;
+}
+.silder-caption btn{
+    background: #5ba533;
+    padding: 20px 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.silder-caption .form-control {
+    padding: 18px 20px;
+}
+/* contact-section */
+.counter-number-item .text{
+    font-size: 50px;
+    font-weight: 600;
+}
+    /* about */
+.about-section{
+    background: #f5f7fe;
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead{
+    font-size: 25px;
+    line-height: 2.7rem;
+}
+    /* FEATURE-SECTION */
+.feature-section{
+
+}
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+.left-test-sec{
+    width: 60%;
+    padding: 25px;
+}
+    /* portfolio-section */
+
+.portfolio-item a{
+    position: relative;
+    display: block;
+    
+}
+.portfolio-item a::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(98, 120,223, .7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+    /* pricing-section */
+.pricing-item{
+    background: #f7f9ff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    border-radius: 5px;
+
+}
+.pricing-item h1{}
+.pricing-item h5{}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+.pricing-item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.pricing-item ul li span{
+    color: #6278df;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+.pricing-item ul li span{}
+.pricing-item-button{}
+.pricing-item-button a{
+    border-color: #6278df;
+    border-width: 2px;
+    color: #6278df;
+    padding: 14px 30px;
+    font-size: 22px;
+    border-radius: 5px;
+
+}
+    /* testimonial-section */
+.author-info{
+    width: 220px;
+    margin: auto;
+}
+.author-info img{
+    width: 70px;
+    margin-right: 18px;
+}
+.user-details{
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+    /* about-section2 */
+.about-item{
+    margin-top: 90px;
+}
+.about-item .card{}
+.about-item .card img{
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+    /* contact-section */
+
+.contact-form-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 40px;
+}
+
+
+    /* line-section */
+.line .bottom:hover{
+    background: #000;
+}
